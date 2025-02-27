@@ -1,0 +1,19 @@
+.basic {
+    background-color: lightcoral;
+    font-family: "Verdana", "DejaVu Sans", sans-serif;
+}
+
+.cooler {
+    font-size: 24px;
+}
+
+#firstId {
+    color: blue;
+    font-size: 36px;
+}
+
+#secondId {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
