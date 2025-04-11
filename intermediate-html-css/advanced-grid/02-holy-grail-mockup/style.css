@@ -35,13 +35,15 @@
 
 .menu {
   display: flex;
-  align-self: center;
   justify-self: end;
 }
 
 .menu ul,
 .menu li {
   font-size: 16px;
+  display: flex;
+  justify-self: center;
+  align-items: center;
 }
 
 .menu ul {
