@@ -28,12 +28,15 @@
 }
 
 .logo {
-  place-self: center start;
-  margin: auto 0;
+  display: flex;
+  justify-self: start;
+  align-self: center;
 }
 
 .menu {
-  margin: auto 0;
+  display: flex;
+  align-self: center;
+  justify-self: end;
 }
 
 .menu ul,
@@ -44,6 +47,7 @@
 .menu ul {
   display: grid;
   grid-template: auto / repeat(4, 1fr);
+  gap: 32px;
 }
 
 .sidebar {
