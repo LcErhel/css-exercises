@@ -8,7 +8,7 @@
 .container {
   text-align: center;
   display: grid;
-  grid-template: auto / 1fr 3fr;
+  grid-template: auto / 1fr 4fr;
   gap: 4px;
 }
 
@@ -67,7 +67,6 @@
   border-radius: 10px;
 }
 
-
 .sidebar .side-content {
   background-color: white;
   color: black;
@@ -94,6 +93,9 @@
 
 .article {
   background-color: #bccbde;
+  display: grid;
+  gap: 16px;
+  grid-template: repeat(2, 1fr) / repeat(auto-fit, minmax(250px, 1fr));
 }
 
 .article p {
@@ -107,6 +109,7 @@
   background-color: #FFFFFF;
   color: black;
   text-align: center;
+  height: 250px;
 }
 
 .card p {
